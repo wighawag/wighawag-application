@@ -9,28 +9,28 @@
 	<main>Main</main>
 	
 	<sources>
-		<source path="src" />
+		<source path="src"/>
 	</sources>
 	
-	<tests framework="munit" path="test" />
+	<tests path="test" framework="munit"/>
 	
 	<targets hxml="compile">
 		
-		<target name="swf" >
-			<param line="-swf-version 11" />
+		<target name="swf">
+			<param line="-swf-version 11"/>
 		</target>
 		
-		<target name="cpp" />
+		<target name="cpp"/>
 
-		<target name="js" />		
+		<target name="js"/>		
 
 	</targets>
 	
 	
-	<config-file template="nmml.template" output="project.nmml" />
+	<config-file output="project.nmml" template="nmml.template"/>
 
 	<dependencies>
-	       	<repository id="com.wighawag.report.Report" version="0.1.1-SNAPSHOT" />
-                <haxelib name="nme" version="3.4.0"/>
+	       	<repository version="0.1.1-SNAPSHOT" id="com.wighawag.report.Report"/>
+                <haxelib name="nme"/>
 	</dependencies>
 </project>
