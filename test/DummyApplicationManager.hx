@@ -1,5 +1,5 @@
 package ;
-import com.wighawag.application.ApplicationManager;
+import wighawag.application.ApplicationManager;
 class DummyApplicationManager implements ApplicationManager{
     public function new() {
     }

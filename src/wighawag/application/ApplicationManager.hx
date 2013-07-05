@@ -1,4 +1,4 @@
-package com.wighawag.application;
+package wighawag.application;
 interface ApplicationManager {
     public function start() : Void;
 }
