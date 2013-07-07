@@ -7,7 +7,7 @@
   "version": "0.0.1",
   "releasenote": "",
   "contributors": ["wighawag"],
-  "classPaths" : ["src"],
+  "classPath" : "src",
   "dependencies": {"wighawag-report":"","openfl":""},
   "targets":["as3"]	
 }
