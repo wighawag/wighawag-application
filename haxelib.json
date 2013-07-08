@@ -1,13 +1,13 @@
 {
   "name": "wighawag-application",
   "url" : "https://github.com/wighawag/wighawag-application/",
-  "license": "Wighawag",
+  "license": "GPL",
   "tags": ["cross","openfl"],
-  "description": "",
+  "description": "openfl application skeleton",
   "version": "0.0.1",
   "releasenote": "",
   "contributors": ["wighawag"],
   "classPath" : "src",
-  "dependencies": {"wighawag-report":"","openfl":""},
+  "dependencies": {"wighawag-report":"0.0.1","openfl":"1.0.4"},
   "targets":["as3"]	
 }
